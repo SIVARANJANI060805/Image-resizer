@@ -1,1 +1,3 @@
-# Image-resizer
+The task is to automatically resize and convert multiple images at the same time. Instead of manually opening and editing each image one by one, the program should take all the images stored inside a folder (input images) and process them together.
+The program will use the Pillow library, which allows Python to work with images. The script should open every image in the input folder, resize it to a specific width and height, and then save the resized version into output folder. If needed, the program should also convert the images into a different format such as JPEG, PNG, or WebP.
+The main goal is to automate image processing. After running the script, all the images should be uniformly resized and stored neatly in the output folder (output images) . This makes the tool useful for preparing images for websites, applications, or datasets.
